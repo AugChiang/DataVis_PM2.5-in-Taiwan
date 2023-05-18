@@ -1,0 +1,45 @@
+<!--ref: https://www.w3schools.com/html/default.asp-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Defines metadata about an HTML document-->
+        <!--Specifies the character encoding-->
+        <meta charset="utf-8">
+        <!--Specifies the name of the element-->
+        <meta name="desciption" content="">
+        <title>
+            DataVis Assignment #5 61047061S
+        </title>
+    </head>
+    <body>
+        <!--Define CSS for popout info-->
+        <style>
+            .selected_point{
+                fill: aqua;
+                stroke: black;
+            }
+            .selected_bar{
+                fill: pink;
+                stroke: black;
+            }
+            .d3-tip{
+                line-height: 1;
+                padding: 6px;
+                background: rgba(0,0,0,0.8);
+                color: #fff;
+                border-radius: 4px;
+                font-size: 12px;
+            }
+        </style>
+        <!--Defines a section for SVG graphics-->
+        <div class="container">
+            <!--Specifies a unique id for an element-->
+            <div id="chart-area"></div>
+            
+        </div>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="d3-tip.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
